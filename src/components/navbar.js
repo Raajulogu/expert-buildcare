@@ -34,12 +34,12 @@ export default function Navbar({open,setOpen}) {
           </div>
          <div className="w-[70vw] flex items-start mt-[44px]">
          <div className="inline-flex flex-col items-start gap-[17px] text-[white]">
-            <p className="font-inter text-[24px] font-bold">Home</p>
-            <p className="font-inter text-[24px] font-bold">About US</p>
-            <p className="font-inter text-[24px] font-bold">Our Services</p>
-            <p className="font-inter text-[24px] font-bold">Our Products</p>
-            <p className="font-inter text-[24px] font-bold">Gallery</p>
-            <p className="font-inter text-[24px] font-bold">Contact us</p>
+            <p className="font-inter text-[22px] font-bold border-t-5px border-[#0E1031]">Home</p>
+            <p className="font-inter text-[22px] font-bold">About US</p>
+            <p className="font-inter text-[22px] font-bold">Our Services</p>
+            <p className="font-inter text-[22px] font-bold">Our Products</p>
+            <p className="font-inter text-[22px] font-bold">Gallery</p>
+            <p className="font-inter text-[22px] font-bold">Contact us</p>
           </div>
          </div>
          <div className="inline-flex py-[23px] px-[31px] items-center gap-[45px] bg-[#6AAF2E] mt-[44px]">
