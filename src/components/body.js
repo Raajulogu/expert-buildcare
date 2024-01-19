@@ -3,7 +3,7 @@ import data from "./data";
 export default function Body() {
 
   return (
-    <div className="w-screen h-[1800px] text-[black] flex-[1 0 0] px-[75px] py-[25px] overflow-hidden">
+    <div className="w-screen h-[1800px] text-[black] flex-[1 0 0] px-[25px] xl:px-[75px] py-[25px] overflow-hidden">
       <div className=" flex flex-col items-start gap-[42px] self-stretch">
         <h1 className=" font-inter text-[45px] font-bold">OUR SERVICES</h1>
         <p className="flex flex-col self-stretch font-inter text-[16px] font-normal">

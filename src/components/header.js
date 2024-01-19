@@ -78,7 +78,7 @@ function Slide({ Ind }) {
   return (
     <div className="w-screen flex flex-col xl:flex-row justify-between items-center px-[85px] h-[auto] gap-[40px] xl:gap-[0px]">
       <div className="inline-flex flex-col h-[550px] justify-center items-center gap-24px shrink-0">
-        <p className="w-511 font-inter text-[64px] font-bold text-white">
+        <p className="w-511 font-inter text-[50px] xl:text-[64px] font-bold text-white">
           {Ind == 0 ? (
             <span>
               <span className="">Building a</span>
