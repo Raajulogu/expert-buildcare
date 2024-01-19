@@ -2,7 +2,7 @@ export default function Contact() {
   return (
     <div className="relative w-screen bg-[#CAEDAC]  h-[44px] flex flex-row justify-between pr-5 pl-5 text-black">
       <div className="flex flex-row items-center hidden md:block h-7">
-        <div className="flex h-6 absolute top-2.5 left-6 gap-5">
+        <div className="cursor-pointer flex h-6 absolute top-2.5 left-6 gap-5">
           <div className="flex flext-start gap-4">
             <svg
               width="32"

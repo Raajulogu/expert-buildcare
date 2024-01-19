@@ -21,15 +21,13 @@ let data = [
 export default function Header() {
   let [num, setNum] = useState(0);
   const performTask = () => {
-    if(num==2){
-        setNum(0)
-      }
-      else{
-        setNum(num+1)
-      }
-  
-};
-setTimeout(performTask, 2000);
+    if (num == 2) {
+      setNum(0);
+    } else {
+      setNum(num + 1);
+    }
+  };
+  setTimeout(performTask, 2000);
   return (
     <div className="w-screen h-[1200px] xl:h-[600px] shrink-0 bg-[url('./assert/header-back-image.png')] bg-no-repeat bg-cover">
       <div className="relative shrink-0 w-screen h-[1200px] xl:h-[600px] bg-[url('https://expertbuildcare.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FheroBGfade.ed07b34f.png&w=1920&q=75')] bg-cover bg-no-repeat">
@@ -43,7 +41,12 @@ setTimeout(performTask, 2000);
               viewBox="0 0 12 12"
               fill="none"
             >
-              <circle cx="6" cy="5.94153" r="5.5" fill={num==0 ?"#6AAF2E":"#CAEDAC"} />
+              <circle
+                cx="6"
+                cy="5.94153"
+                r="5.5"
+                fill={num == 0 ? "#6AAF2E" : "#CAEDAC"}
+              />
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -52,7 +55,12 @@ setTimeout(performTask, 2000);
               viewBox="0 0 12 12"
               fill="none"
             >
-              <circle cx="6" cy="5.94153" r="5.5" fill={num==1 ?"#6AAF2E":"#CAEDAC"} />
+              <circle
+                cx="6"
+                cy="5.94153"
+                r="5.5"
+                fill={num == 1 ? "#6AAF2E" : "#CAEDAC"}
+              />
             </svg>
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -61,7 +69,12 @@ setTimeout(performTask, 2000);
               viewBox="0 0 12 12"
               fill="none"
             >
-              <circle cx="6" cy="5.94153" r="5.5" fill={num==2 ?"#6AAF2E":"#CAEDAC"} />
+              <circle
+                cx="6"
+                cy="5.94153"
+                r="5.5"
+                fill={num == 2 ? "#6AAF2E" : "#CAEDAC"}
+              />
             </svg>
           </div>
         </div>
@@ -113,7 +126,7 @@ function Slide({ Ind }) {
           {data[Ind].body}
         </p>
         <div className="relative flex items-start gap-[23px] content-start flex-wrap">
-          <div className="flex h-[90px]  xl:py-[23px] px-[31px] items-center bg-[#6AAF2E] gap-[45px]">
+          <div className="cursor-pointer flex h-[90px]  xl:py-[23px] px-[31px] items-center bg-[#6AAF2E] gap-[45px]">
             <p className="text-white font-inter text-24px font-bold">
               <span>Book A Call</span>
               <br />
@@ -132,7 +145,7 @@ function Slide({ Ind }) {
               />
             </svg>
           </div>
-          <div className="flex h-[90px] py-[23px] px-[31px] items-center gap-[45px] bg-[#0E1031] hover:bg-[#6AAF2E] duration-[1s] border-t-[5px] border-[#6AAF2E] ">
+          <div className="cursor-pointer flex h-[90px] py-[23px] px-[31px] items-center gap-[45px] bg-[#0E1031] hover:bg-[#6AAF2E] duration-[1s] border-t-[5px] border-[#6AAF2E] ">
             <p className="text-white font-inter text-[24px] font-bold">
               <span>Download</span>
               <br />
@@ -154,15 +167,8 @@ function Slide({ Ind }) {
         </div>
       </div>
       <div className="absolute xl:right-0 bottom-0  flex w-[567px] justify-center items-center gap-[43px]">
-        <img
-          src={img}
-          alt=""
-          height="700"
-          width="750"
-          class=" shrink-0"
-        />
+        <img src={img} alt="" height="700" width="750" class=" shrink-0" />
       </div>
     </div>
   );
 }
-
