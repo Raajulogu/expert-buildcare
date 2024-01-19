@@ -32,7 +32,7 @@ export default function Header() {
 setTimeout(performTask, 2000);
   return (
     <div className="w-screen h-[1200px] xl:h-[600px] shrink-0 bg-[url('./assert/header-back-image.png')] bg-no-repeat bg-cover">
-      <div className="relative shrink-0 w-screen h-[1200px] xl:h-[600px] bg-gradient-to-r from-[#0E1031] from-11.72% to-[rgba(14, 16, 49, 0.8) to-163.29%] bg-gradient-101deg">
+      <div className="relative shrink-0 w-screen h-[1200px] xl:h-[600px] bg-[url('https://expertbuildcare.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FheroBGfade.ed07b34f.png&w=1920&q=75')] bg-cover bg-no-repeat">
         <div className=" flex flex-col justify-center items-center gap-[25px]">
           <Slide Ind={num} />
           <div className="hidden xl:flex absolute bottom-10 flex w-[799.017px] justify-center items-center gap-[12px]">

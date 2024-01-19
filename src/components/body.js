@@ -36,7 +36,7 @@ export default function Body() {
 
 function Services({data}){
     return(
-        <div className="flex w-[350px] p-[12px] flex-col items-center gap-[8px] shrink-0 self-stretch radius-[8px] bg-[#FFF]">
+        <div className="flex w-[350px] p-[12px] flex-col items-center justify-around gap-[8px] shrink-0 self-stretch radius-[8px] bg-[#FFF]">
             <img src={data.img} alt="" className="h-[250px] self-stretch"/>
 
             <h6 className="font-inter text-[24px] font-bold flex-[1 0 0]">{data.title}</h6>
