@@ -18,8 +18,13 @@ export default function Home() {
       )}
       <div className={!open ? "mt-[44px]" : ""}>
         <Navbar open={open} setOpen={setOpen} />
-        <Header />
-        <Body />
+       {!open &&( <Header />)
+
+       }
+       {!open &&( 
+        <Body />)
+
+       }
       </div>
     </main>
   );
